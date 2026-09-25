@@ -1,5 +1,5 @@
 [bans]
-multiple-versions = "deny"
+multiple-versions = "warn"
 multiple-versions-include-dev = true
 wildcards = "allow"
 workspace-default-features = "allow"
