@@ -6,5 +6,5 @@ workspace-default-features = "allow"
 external-default-features = "allow"
 
 [bans.workspace-dependencies]
-duplicates = "allow"
-unused = "allow"
+duplicates = "deny"
+unused = "deny"
