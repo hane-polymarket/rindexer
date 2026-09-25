@@ -1,0 +1,10 @@
+[bans]
+multiple-versions = "deny"
+multiple-versions-include-dev = true
+wildcards = "allow"
+workspace-default-features = "allow"
+external-default-features = "allow"
+
+[bans.workspace-dependencies]
+duplicates = "allow"
+unused = "allow"
